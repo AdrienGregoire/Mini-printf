@@ -10,12 +10,12 @@ La fonction principale à implémenter est:
 ```c
 int mini_printf(char const *format, ...)
 ```
-Elle doit gérer les flas suivants:
-%c    --Afficher un caractère
-%s    --Afficher une chaine de caractère
-%d    --Afficher un entier
-%i    --Afficher un entier
-%%    --Afficher le caractère '%'
+Elle doit gérer les flas suivants:    
+%c    --Afficher un caractère    
+%s    --Afficher une chaine de caractère    
+%d    --Afficher un entier    
+%i    --Afficher un entier    
+%%    --Afficher le caractère '%'     
 
 ## Compétences développées
 
