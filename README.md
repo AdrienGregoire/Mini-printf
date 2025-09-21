@@ -33,9 +33,24 @@ Elle doit gérer les flas suivants:
 
 ## Lancer les projets
 Comme le projet est une fonction, il faudrait l'implémenter dans un projet et l'utiliser comme une fonction personnalisée. Cependant, vous pouvez aussi créer un fichier **main.c** pour appeler la fonction et l'essayer.
+
+```c
+//Voici ce que vous pouvez ecrire dans le main.c
+
+#include "include/my.h"
+#include <stdarg.h>
+
+int main(void)
+{
+    mini_printf("Hello World\n");
+    return 0;
+}
+```
+
+Pour compiler
 ```bash
 gcc main.c mini_printf.c mini_printf_functions.c
-./<your_binary_file
+./a.out
 ```
 
 ## Licence
