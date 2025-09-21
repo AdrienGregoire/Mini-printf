@@ -31,7 +31,7 @@ Elle doit gérer les flas suivants:
 |----mini_printf_functions.c # Fonctions de formattage     
 |____README.md # Ce fichier     
 
-## Lancer les projets
+## Lancer le projet
 Comme le projet est une fonction, il faudrait l'implémenter dans un projet et l'utiliser comme une fonction personnalisée. Cependant, vous pouvez aussi créer un fichier **main.c** pour appeler la fonction et l'essayer.
 
 ```c
