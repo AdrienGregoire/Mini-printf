@@ -5,6 +5,8 @@
 ** my.h
 */
 
+#include <stdarg.h>
+
 #ifndef MY_H_
     #define MY_H_
 void my_putchar(char c);
