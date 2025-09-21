@@ -24,8 +24,8 @@ Elle doit gérer les flas suivants:
 - Travail en équipe
 - **Autonomie  et rigueur** dans le développement
 
-## Structure du repo
-|----include/
+## 📁 Structure du projet
+|----include/     
      |____my.h # Fichier .h avec les prototypes    
 |----mini_printf.c # Fonction principale    
 |----mini_printf_functions.c # Fonctions de formattage     
@@ -40,6 +40,3 @@ gcc main.c mini_printf.c mini_printf_functions.c
 
 ## Licence
 Aucune.
-
-
-
