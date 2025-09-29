@@ -3,17 +3,18 @@
 ## Description
 
 Voici mon repo contenant mon **mini-printf**, un projet réalisé durant **la Piscine C de première année à Epitech**.
-Le but de ce projet était de recréer une version simplifiée de la fonction printf en C, sans utiliser la fonction d’origine
+Le but de ce projet était de recréer une version simplifiée de la fonction <mark>printf</mark> en C, sans utiliser la fonction d’origine
 C’est un projet très formateur qui m’a permis de travailler sur :
 - Les pointeurs
-- Les arguments variadiques (<stdarg.h>)
+- Les arguments variadiques (<mark><stdarg.h></mark>)
 - La manipulation de chaînes et de nombres en C
 
 ## 📚 Contenu
+
 Ce repo contient :
-- mini_printf.c : L’implémentation principale du mini_printf
-- mini_printf_functions.c : Les fonctions utilitaires (my_putchar, my_putstr, my_put_nbr)
-- include/my.h : Le fichier d’en-tête pour centraliser les prototypes
+- <mark>mini_printf.c</mark> : L’implémentation principale du <mark>mini_printf</mark>
+- <mark>mini_printf_functions.c</mark> : Les fonctions utilitaires (<mark>my_putchar</mark>, <mark>my_putstr</mark>, <mark>my_put_nbr</mark>)
+- <mark>include/my.h</mark> : Le fichier d’en-tête pour centraliser les prototypes
 
 > ⚠️ **Disclaimer :**
 > Ce repo n'a pas vocation d'être un cheat code pour la Piscine.
@@ -21,9 +22,10 @@ Ce repo contient :
 > Si un étudiant tombe sur ce repo, je te conseille d'aller regarder ailleurs pour éviter un -42.
 
 ## Compétences développées
-- Manipulation des arguments variadiques avec va_list, va_start, va_arg, va_end
+
+- **Manipulation des arguments variadiques** avec <mark>va_list</mark>, <mark>va_start</mark>, <mark>va_arg</mark>, <mark>va_end</mark>
 - Implémentation d’une version simplifiée de printf
-- Compréhension des spécificateurs de format (%c, %s, %d, %%)
+- Compréhension des **spécificateurs de format** (<mark>%c</mark>, <mark>%s</mark>, <mark>%d</mark>, <mark>%%</mark>)
 - Gestion des chaînes de caractères et des entiers
 - Organisation de projet avec des fichiers séparés et un header
 
@@ -37,12 +39,13 @@ Ce repo contient :
 ```
 
 ## Lancer le projet
-Pour compiler le projet, il suffit d’utiliser gcc :
+
+Pour compiler le projet, il suffit d’utiliser <mark>gcc</mark> :
 ```bash
 gcc mini_printf.c mini_printf_functions.c -I include -o mini_printf
 ./mini_printf
 ```
-Tu peux ensuite tester directement en appelant mini_printf dans un main.c personnalisé
+Tu peux ensuite tester directement en appelant <mark>mini_printf</mark> dans un <mark>main.c</mark> personnalisé
 ```c
 #include "include/my.h"
 #include <stdarg.h>
@@ -59,4 +62,5 @@ int main(void)
 Hello World
 ```
 ## Licence
+
 Aucune.
